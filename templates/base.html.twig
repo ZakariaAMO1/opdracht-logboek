@@ -17,21 +17,19 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
-        <a class="navbar-brand" href="/">MP4Shop</a>
+        <a class="navbar-brand" href="/">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/product">Producten</a>
+                    <a class="nav-link" href="/logboek">Logboek</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/betaal">Betalingen</a>
+                    <a class="nav-link" href="/login">login</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/invoice">Facture</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="/register">Register</a>
                 </li>
@@ -47,9 +45,7 @@
 </header>
 
 {% block fos_user_content %}
-{% endblock %}
-
-{% block body %}dit word de inhoud van de site.{% endblock %}
+{% endblock %} {% block body %}dit word de inhoud van de site.{% endblock %}
 
 <!-- FOOTER -->
 <footer class="container">
